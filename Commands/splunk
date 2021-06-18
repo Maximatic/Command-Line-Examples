@@ -1,0 +1,2 @@
+# Run splunk diag on Linux host and automatically upload to case. You will be prompted for your splunk.com account password.
+splunk diag --upload --case-number=<case_number> --upload-user=<mySplunk.com_username> --upload-description="Diag from search head"
